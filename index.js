@@ -25,23 +25,26 @@ import { fifaData } from './fifa.js';
                     //   });
                     // console.log(getFinals);
   
-                    // function getFinals(data){
-                    //     const newArray = data.filter(function (item){
-                    //         return item["Stage"] === "Final";
-                    //     });
-                    //     return newArray;
-                    // }
-                    // console.log(getFinals(fifaData));
+                        // function getFinals(data){
+                        //     const newArray = data.filter(function (item){
+                        //         return item["Stage"] === "Final";
+                        //     });
+                        //     return newArray;
+                        // }
+                        // console.log(getFinals(fifaData));
 
 /* Task 3: Implement a higher-order function called `getYears` that accepts the callback function `getFinals`, and returns an array called `years` containing all of the years in the dataset */
 
-function getYears(/* code here */) {
+                    // function getYears(cb) {
+                    //     const years = cb(fifaData).map(function (item){
+                    //       return item["Year"];
+                    //     });
+                    //     return years;
+                    //   };
+                    //   console.log(getYears(getFinals));
 
-    /* code here */
 
-};
 
-getYears();
 
 /* Task 5: Implement a higher-order function called `getWinners`, that accepts the callback function `getFinals()` and determine the winner (home or away) of each `finals` game. Return the name of all winning countries in an array called `winners` */ 
 
